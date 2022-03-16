@@ -48,8 +48,8 @@ export const AppProvider = (props) => {
 
     const addSubTask = (currentCard) => {
         dispatch({
-        type: "add_sub_task",
-        payload: currentCard
+            type: "add_sub_task",
+            payload: currentCard
         })
     }
 
